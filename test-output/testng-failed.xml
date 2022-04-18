@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Automation.RestAssured.validateMe">
+      <class name="petStoreTest.DataDrivenApproach">
         <methods>
-          <include name="Login"/>
+          <include name="setup"/>
+          <include name="getAPIpetStatus"/>
         </methods>
-      </class> <!-- Automation.RestAssured.validateMe -->
+      </class> <!-- petStoreTest.DataDrivenApproach -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

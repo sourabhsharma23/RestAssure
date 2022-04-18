@@ -18,6 +18,7 @@ import org.testng.annotations.Test;
 
 public class validateMe{
 
+	String jwt="";
 	@Test
 	public void Login() {
 
